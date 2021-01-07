@@ -13,6 +13,7 @@
 #import "MultiLevelExampleVC.h"
 #import "ChildViewConflictExampleVC.h"
 #import "SwitchByHandExampleVC.h"
+#import "CustomLeftSpaceExampleVC.h"
 
 @interface SpecialUseExampleVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -98,6 +99,12 @@
             exampleVC.title = [self cellTitles][indexPath.row];
             [self.navigationController pushViewController:exampleVC animated:true];
         }
+        case 5://自定义标题左边距
+        {
+            CustomLeftSpaceExampleVC *exampleVC = [[CustomLeftSpaceExampleVC alloc] init];
+            exampleVC.title = [self cellTitles][indexPath.row];
+            [self.navigationController pushViewController:exampleVC animated:true];
+        }
         default:
             break;
     }
@@ -109,7 +116,8 @@
              @"频道定制",
              @"多级嵌套",
              @"子view滚动冲突",
-             @"手动切换"
+             @"手动切换",
+             @"自定义标题左边距"
              ];
 }
 

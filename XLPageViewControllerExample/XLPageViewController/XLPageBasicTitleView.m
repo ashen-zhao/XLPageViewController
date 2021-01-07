@@ -167,7 +167,7 @@
         collectionW = self.bounds.size.width - btnW;
         self.rightButton.frame = CGRectMake(self.bounds.size.width - btnW, 0, btnW, btnW);
     }
-    self.collectionView.frame = CGRectMake(0, 0, collectionW, self.bounds.size.height);
+    self.collectionView.frame = CGRectMake(self.config.titleLeftSpace, 0, collectionW - self.config.titleLeftSpace, self.bounds.size.height);
     
     self.separatorLine.frame = CGRectMake(0, self.bounds.size.height - self.config.separatorLineHeight, self.bounds.size.width, self.config.separatorLineHeight);
     

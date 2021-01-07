@@ -39,6 +39,7 @@
 		5EFC0BA6228D6BCB0024F6C9 /* XLChannelHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC0BA1228D6BCB0024F6C9 /* XLChannelHeader.m */; };
 		5EFC0BA7228D6BCB0024F6C9 /* XLChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC0BA2228D6BCB0024F6C9 /* XLChannelView.m */; };
 		5EFC0BA8228D6BCB0024F6C9 /* XLChannelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC0BA4228D6BCB0024F6C9 /* XLChannelItem.m */; };
+		8C9BD7DC25A6EE4D0098BDCB /* CustomLeftSpaceExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BD7DB25A6EE4D0098BDCB /* CustomLeftSpaceExampleVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +105,8 @@
 		5EFC0BA2228D6BCB0024F6C9 /* XLChannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelView.m; sourceTree = "<group>"; };
 		5EFC0BA3228D6BCB0024F6C9 /* XLChannelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChannelControl.h; sourceTree = "<group>"; };
 		5EFC0BA4228D6BCB0024F6C9 /* XLChannelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLChannelItem.m; sourceTree = "<group>"; };
+		8C9BD7DA25A6EE4D0098BDCB /* CustomLeftSpaceExampleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLeftSpaceExampleVC.h; sourceTree = "<group>"; };
+		8C9BD7DB25A6EE4D0098BDCB /* CustomLeftSpaceExampleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLeftSpaceExampleVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +236,8 @@
 				5EFC0B45228CEFB40024F6C9 /* ChildViewConflictExampleVC.m */,
 				5EFC0B5B228D34BE0024F6C9 /* SwitchByHandExampleVC.h */,
 				5EFC0B5C228D34BE0024F6C9 /* SwitchByHandExampleVC.m */,
+				8C9BD7DA25A6EE4D0098BDCB /* CustomLeftSpaceExampleVC.h */,
+				8C9BD7DB25A6EE4D0098BDCB /* CustomLeftSpaceExampleVC.m */,
 				5EBE6EDC228AF95300B1F8F9 /* View */,
 			);
 			path = SpecialUseExample;
@@ -363,6 +368,7 @@
 				5E789D10228A2D7F0028F37E /* CustomTitleCellExampleVC2.m in Sources */,
 				5EA702C9228026FC0006D0C2 /* main.m in Sources */,
 				5E789D07228966D10028F37E /* CustomTitleCellExampleVC1.m in Sources */,
+				8C9BD7DC25A6EE4D0098BDCB /* CustomLeftSpaceExampleVC.m in Sources */,
 				5EA702E8228286BB0006D0C2 /* XLPageViewControllerConfig.m in Sources */,
 				5E789D0D228A2CCA0028F37E /* CustomPageTitleCell2.m in Sources */,
 				5EFC0BA6228D6BCB0024F6C9 /* XLChannelHeader.m in Sources */,

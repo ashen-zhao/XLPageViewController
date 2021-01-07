@@ -96,6 +96,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat titleSpace;
 
 /**
+ 标题距离最左边起始值 默认 0
+ */
+@property (nonatomic, assign) CGFloat titleLeftSpace;
+
+/**
  标题宽度 默认 文字长度
  */
 @property (nonatomic, assign) CGFloat titleWidth;
